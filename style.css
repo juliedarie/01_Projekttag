@@ -1,0 +1,31 @@
+body {
+  background-color: #7279f6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: white;
+  width: 768px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.card .text {
+  padding: 20px;
+  width: 50%;
+  box-sizing: border-box;
+}
